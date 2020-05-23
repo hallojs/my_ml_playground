@@ -1,0 +1,43 @@
+##############################################
+#					Basic requirements.txt for 				 #
+# machine learning and data science purposes #
+##############################################
+#
+# Descripytions are stolen from https://pypi.org.
+#
+# IPython provides a rich toolkit to help you make the most out of using Python
+# interactively 
+ipython
+#
+# Install the Jupyter system, including the notebook, qtconsole, and the
+# IPython kernel
+jupyter
+#
+# An extensible environment for interactive and reproducible computing, based
+# on the Jupyter Notebook and Architecture.
+jupyterlab
+#
+# Interactive HTML widgets for Jupyter notebooks
+widgetsnbextension
+#
+# NumPy can be used as an efficient multi-dimensional container of generic data
+numpy
+#
+# Pandas is a Python package providing fast, flexible, and expressive data
+# structures designed to make working with structured and time series data both
+# easy and intuitive.
+pandas
+#
+# Matplotlib is a comprehensive library for creating static, animated, and
+# interactive visualizations in Python.
+matplotlib
+#
+# Seaborn is a library for making statistical graphics in Python
+seaborn
+#
+# Scikit-learn is a Python module for machine learning built on top of SciPy.
+scikit-learn
+#
+# TensorFlow is an open source software library for high performance numerical
+# computation.
+tensorflow
