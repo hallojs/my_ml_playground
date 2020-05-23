@@ -1,5 +1,5 @@
 # My ML Playground
-My machine learning playground.
+My place to play around with machine learning and data science to learn and more importantly have fun :)
 
 ## Requirements-Files and Virtual Enviroments
 1. basic_data_science_requirements: A requirements file with the basic stuff needed for machine learning and data science. This file can be used as a basis for machine learning experiments and data science projects.
