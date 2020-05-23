@@ -28,7 +28,7 @@ pip install -r <name of the requirements file>
 ```bash
 python -m ipykernel install --user --name=<name of the VE>
 ```
-List all VEs available in jupyter notebook:
+List all VEs available in Jupyter Notebook:
 ```bash
 jupyter kernelspec list
 ```
