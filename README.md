@@ -44,4 +44,5 @@ rm -r <path to VE>
 
 ## Notebooks
 1. autoencoder_anomaly_detection: Anomaly-detection in strings using an autoencoder. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/autoencoder_anomaly_detection.ipynb)
-2. Evaluation of the differential private stochastic gradient descent in tensorflow-privacy on the mnist dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/mnist_dpsgd.ipynb)
+2. autoencoder_anomaly_detection: Evaluation of the differential private stochastic gradient descent in tensorflow-privacy on the mnist dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/mnist_dpsgd.ipynb)
+3. input_generator_keras_model: In this notebook I experiment how to use generators as input for a keras model. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/input_generator_keras_model.ipynb)
