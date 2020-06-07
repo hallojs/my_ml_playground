@@ -8,15 +8,25 @@ Build a virtual enviroment (VE) with the requiremnts from above:
 1. Create a VE:
 ```bash
 python3 -m venv <name of the VE>
+# or if you use pyenv-virtualenv:
+pyenv virtualenv <python-version> <name of VE>
+# show all VEs in pyenv:
+pyenv virtualenvs
 ```
 
 2. Activate VE:
 ```bash
 source <name of the VE>/bin/activate
+# and for pyenv-virtualenv:
+pyenv activate <name of VE>
+# or for convenience create a .python-version-file:
+pyenv local <name of VE>
 ```
 To deactivate the VE just type (don't do it now, the VE must be activated for the following steps):
 ```bash
 deactivate
+# or
+pyenv deactivate
 ```
 
 3. Install requirements :
@@ -40,6 +50,8 @@ jupyter kernelspec uninstall <name of the VE>
 5. Delete VE from the system:
 ```bash
 rm -r <path to VE>
+# or
+pyenv uninstall <name of VE>
 ```
 
 ## Notebooks
