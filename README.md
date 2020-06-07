@@ -25,7 +25,7 @@ pyenv local <name of VE>
 To deactivate the VE just type (don't do it now, the VE must be activated for the following steps):
 ```bash
 deactivate
-# or
+# or in pyenv:
 pyenv deactivate
 ```
 
@@ -50,7 +50,7 @@ jupyter kernelspec uninstall <name of the VE>
 5. Delete VE from the system:
 ```bash
 rm -r <path to VE>
-# or
+# or in pyenv:
 pyenv uninstall <name of VE>
 ```
 
