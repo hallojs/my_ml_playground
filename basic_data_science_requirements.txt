@@ -1,5 +1,5 @@
 ##############################################
-#					Basic requirements.txt for 				 #
+#        Basic requirements.txt for 	     #
 # machine learning and data science purposes #
 ##############################################
 #
