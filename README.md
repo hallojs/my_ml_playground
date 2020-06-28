@@ -1,6 +1,13 @@
 # My ML Playground
 My place to play around with machine learning and data science to learn and more importantly have fun :)
 
+## Notebooks
+1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/autoencoder_anomaly_detection.ipynb) autoencoder_anomaly_detection: Anomaly-detection in strings using an autoencoder.
+2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/mnist_dpsgd.ipynb) mnist_dpsgd: Evaluation of the differential private stochastic gradient descent in tensorflow-privacy on the mnist dataset.
+3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/input_generator_keras_model.ipynb) input_generator_keras_model: In this notebook I experiment how to use generators as input for a keras model.
+4. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/keras_hyperparameter_tuning_tensorboard_hparams.ipynb) keras_hyperparameter_tuning_tensorboard_hparams: In this notebook I use for the first time Tensorboard and HParams with a simple Keras model. The TensorBoard can be partially (without HParams plugin) found [here](https://tensorboard.dev/experiment/f6TagqsXRJW8pBkuoSyeQw/).
+5. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/generalize_keras_hyperparameter_tuning_tensorboard_hparams.ipynb) generalize_keras_hyperparameter_tuning_tensorboard_hparams: Using TensorBoard with HParamsPlugin and track custom metrics.
+
 ## Requirements-Files and Virtual Enviroments
 1. basic_data_science_requirements: A requirements file with the basic stuff needed for machine learning and data science. This file can be used as a basis for machine learning experiments and data science projects.
 
@@ -53,10 +60,3 @@ rm -r <path to VE>
 # or in pyenv:
 pyenv uninstall <name of VE>
 ```
-
-## Notebooks
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/autoencoder_anomaly_detection.ipynb) autoencoder_anomaly_detection: Anomaly-detection in strings using an autoencoder.
-2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/mnist_dpsgd.ipynb) mnist_dpsgd: Evaluation of the differential private stochastic gradient descent in tensorflow-privacy on the mnist dataset.
-3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/input_generator_keras_model.ipynb) input_generator_keras_model: In this notebook I experiment how to use generators as input for a keras model.
-4. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/keras_hyperparameter_tuning_tensorboard_hparams.ipynb) keras_hyperparameter_tuning_tensorboard_hparams: In this notebook I use for the first time Tensorboard and HParams with a simple Keras model. The TensorBoard can be partially (without HParams plugin) found [here](https://tensorboard.dev/experiment/f6TagqsXRJW8pBkuoSyeQw/).
-5. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hallojs/my_tf_playground/blob/master/generalize_keras_hyperparameter_tuning_tensorboard_hparams.ipynb) generalize_keras_hyperparameter_tuning_tensorboard_hparams: Using TensorBoard with HParamsPlugin and track custom metrics.
